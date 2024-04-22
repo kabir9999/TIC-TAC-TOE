@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="rules" id="history">
+            <div class="rule_h">HISTORY</div>
+            <ul>
+                <li>Early Roman version known as "terni lapilli", involved placing three pebbles on a grid-like surface, dating back centuries.</li>
+                <li>In the mid-1800s, Britain used the name "noughts and crosses," with "nought" referring to O's and "crosses" to X's and then "tick-tack-toe" emerged in the late 1800s.</li>
+                <li>In different countries, Tic Tac Toe may be referred to by alternative names such as Xs and Os, Boxin' Oxen, or Twiddles and Bears.</li>
+                <li>Tic Tac Toe's simplicity inspires numerous twists, like Connect 4 and Mojo,Toss Across, Nine Men's Morris.</li>
+                <li> Some adaptations involve expanding Tic Tac Toe into three dimensions, using 3x3x3 boards, which presents a more complex challenge.</li>
+                <li>Tic Tac Toe accommodates various grid sizes and configurations, sparking creativity.</li>
+
+            </ul>
+        </div>
+
+        <div class="player p1 hide" id="player_1">
+            <div class="pic">
+                    <!-- <img src="player-01.jpg" alt="" height="210px" width="300px"> -->
+            </div>
+            <div class="intro">
+                <p class="jersey-10-regular">NAME : KABIR</p>
+            </div>
+        </div>
+
+
+        <div class="hero">
+            <div class="first container" id="f_container">
+                <div class="nme jersey-10-regular">
+                    TIC TAC TOE GAME
+                </div>
+                <button class="btn" id="f_play" onclick="addhide()">
+                    READY TO PLAY
+                </button>
+            </div>
+
+
+            <div class="second container" id="s_container">
+                <div class="nme jersey-10-regular">
+                    TIC TAC TOE GAME
+                </div>
+
+                
+                        <p id="toss_win" class="jersey-10-regular t_win"> TOSS FOR PLAY____</p>
+                        <div class="kk">
+
+                        <button class="btn tss jersey-10-regular" onclick="tossForFirst()">
+                            TOSS
+                        </button>
+
+                        <button class="play jersey-10-regular  hide"  id="s_play" onclick="playTheGame()">
+                            PLAY
+                        </button></div>
+
+
+            </div>
+
+
+            <div class="third container" id="t_container">
+                <div class="nme jersey-10-regular">
+                    TIC TAC TOE GAME
+                </div>
+
+                <div class="turn" >
+                    <div class="t">
+                    <p class="jersey-10-regular" id="para1"> KABIR's TURN</p> </div>
+                    <div class="t">
+                    <p class="jersey-10-regular" id="para2"> PARTH's TURN</p></div>
+                    
+                </div>
+
+                <div class="game">
+                        <div class="box" id="b1" onclick="firstBox()"></div>
+                        <div class="box" id="b2" onclick="secondBox()"></div>
+                        <div class="box" id="b3" onclick="thirdBox()"></div>
+                        <div class="box" id="b4" onclick="fourthBox()"></div>
+                        <div class="box" id="b5" onclick="fifthBox()"></div>
+                        <div class="box" id="b6" onclick="sixthBox()"></div>
+                        <div class="box" id="b7" onclick="sevenBox()"></div>
+                        <div class="box" id="b8" onclick="eightBox()"></div>
+                        <div class="box" id="b9" onclick="ninethBox()"></div>
+                </div>
+
+            </div>
+
+            <div class="fourth over container">
+                <div class="nme jersey-10-regular">
+                    TIC TAC TOE GAME
+                </div>
+
+                <p id="endwinner" class="jersey-10-regular t_win"> GAME TIE</p>
+
+                <button class="btn">
+                    <a href="index.html" class="replay">REPLAY</a>
+                   
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="rules" id="rule">
+            <div class="rule_h">RULES</div>
+            <ul>
+                <li>Players begin by determining the first turn through TOSS. The player who wins TOSS goes first, placing their distinct symbol on the grid.</li>
+                <li>Players take turns filling the grid with their symbols in an alternating fashion.</li>
+                <li>Players take turns strategically positioning their distinct symbols, aiming to create a line of three symbols either horizontally, vertically, or diagonally within the 3x3 grid.</li>
+                <li>Winning occurs when a player successfully forms such a line, signifying victory in the game.</li>
+                <li>If the grid fills up without a winner, resulting in no valid lines, the game ends in a tie.</li>
+                <li>The game begins with the first player making their move, followed by the second player.
+                    The game continues until one player forms a winning line or when no moves are left to make.</li>
+                <li>This simple yet strategic game offers endless possibilities for tactical play and competitive challenges.</li>
+            </ul>
+        </div>
+        
+
+        <div class="player p2 hide" id="player_2">
+            <div class="pic">
+                <!-- <img src="player-02.jpg" alt="" height="210px" width="300px"> -->
+            </div>
+        <div class="intro">
+            <p class="jersey-10-regular">NAME : PARTH</p>
+        </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

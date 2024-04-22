@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(250, 255, 255);
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    /* background-color: bisque; */
+
+}
+.hero{
+    width: 600px;
+    height: 670px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.p1{
+    background-image: url(player-01.jpg);
+}
+
+.p2{
+    background-image: url(player-02.jpg);
+}
+
+.player{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size:cover;
+
+    overflow: hidden;
+
+}
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+.intro{
+    width: 100%;
+    height:100px;
+    color: aliceblue;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.604);
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.intro>p{
+    font-size: 37px;
+    letter-spacing: 2px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(254, 254, 254);    
+    /* position: absolute; */
+}
+/* .first,.second, .third , .fourth{
+
+} */
+.first{
+    background-color: rgb(255, 255, 255);
+    /* z-index: -1; */
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    /* z-index: -2; */
+}
+.third{
+    background-color: rgb(255, 255, 255);
+    /* z-index: -3; */
+}
+.forth{
+    background-color: rgb(255, 255, 255);
+    /* z-index: -4; */
+}
+
+.nme{
+    color: rgb(123, 189, 248);
+    font-size: 65px;
+    font-weight: 530;
+    letter-spacing: 5px;
+}
+.btn{
+    height: 60px;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: rgb(123, 189, 248);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 13px;
+    border-radius: 10px 10px 10px 10px;
+}
+.hide{
+    display: none;
+}
+.t_win{
+    width: 100%;
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+    background-color: rgba(233, 227, 221, 0.888);
+}
+.tss{
+    margin-top: 40px;
+    
+    width: 170px;
+    height: 50px;
+}
+
+.play{
+    height: 60px;
+    width: 150px;
+    padding-bottom : 13px;
+    font-size: 55px;
+    margin-top: 70px;
+    
+}
+.kk{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.result{
+    height: 250px;
+    width: 300px;
+    background-color: rgba(250, 235, 215, 0.627);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 25px;
+    align-items: center;
+}
+
+.game{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: rgb(123, 189, 248);
+    border-radius: 10%;
+    /* gap: 25px; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 20%;
+}
+.box>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background-size:cover;
+}
+
+.turn{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+}
+.t{
+    width: 10rem;
+    border: solid 2px;
+}
+.tc{
+    background-color: rgb(123, 189, 248);
+}
+.replay{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rules{
+    width: 300px;
+    /* position: absolute; */
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8%;
+    border: 5px solid rgb(255, 255, 255);
+    -webkit-box-shadow: inset -1px 3px 69px 8px rgb(123, 189, 248);
+    -moz-box-shadow: inset -1px 3px 69px 8px rgb(123, 189, 248);
+    box-shadow: inset -1px 3px 69px 8px rgb(123, 189, 248);
+
+}
+
+.rule_h{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+li{
+    font-size: 17px;
+    margin-bottom: 7px;
+    text-align:justify;
+    /* font-family:'Times New Roman', Times, serif   */
+    
+}
+
+
+
