@@ -18,7 +18,6 @@ body{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    /* background-color: bisque; */
 
 }
 .hero{
@@ -80,20 +79,18 @@ body{
     background-color: rgb(254, 254, 254);    
     /* position: absolute; */
 }
-/* .first,.second, .third , .fourth{
 
-} */
 .first{
     background-color: rgb(255, 255, 255);
-    /* z-index: -1; */
+    
 }
 .second{
     background-color: rgb(255, 255, 255);
-    /* z-index: -2; */
+    
 }
 .third{
     background-color: rgb(255, 255, 255);
-    /* z-index: -3; */
+    
 }
 .forth{
     background-color: rgb(255, 255, 255);
